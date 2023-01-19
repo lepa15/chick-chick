@@ -12,18 +12,21 @@
 <body>
 	<header class="header">
 		<div class="container">
-			<img class="header__logo" src="img/logo.svg" alt="Логотип барбершоп Chik-hick">
-			<nav class="header__navigation navigation">
-				<ul class="navigation__list">
-					<li class="navigation__item">
-						<a href="#price" class="navigation__link">Cтоимость услуг</a>
-					</li>
-					<li class="navigation__item">
-						<a href="#about" class="navigation__link">О нас</a>
-					</li>
-				</ul>
-			</nav>
-			<a href="#reserve" class="header__link main-link">Записаться</a>
+			<div class=" header__container">
+				<img class="header__logo" src="img/logo.svg" alt="Логотип барбершоп Chik-hick">
+				<nav class="header__navigation navigation">
+					<ul class="navigation__list">
+						<li class="navigation__item">
+							<a href="#price" class="navigation__link">Cтоимость услуг</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#about" class="navigation__link">О нас</a>
+						</li>
+					</ul>
+				</nav>
+	
+				<a href="#reserve" class="header__link main-link">Записаться</a>
+			</div>
 		</div>
 	</header>
 
@@ -41,7 +44,7 @@
 							<li class="slider__item">
 								<img class="slider__image" src="img//photo01.jpg" alt="Рок-н-ролл">
 							</li>
-							<li class="slider__item">
+							<li class="slider__item slider__item_active">
 								<img class="slider__image" src="img//photo02.jpg" alt="Фейд">
 							</li>
 							<li class="slider__item">
@@ -125,19 +128,37 @@
 
 				<ul class="about__list">
 					<li class="about__item">
-						<h3 class="about__item-title">Топ специалисты</h3>
-
-						<p class="about__item-description">Мы подстрижем вас на высшем уровне</p>
+						<div class="about__item-image">
+							<img src="img/icon 1.png" alt="">
+						</div>
+						
+						<div class="about__item-content">
+							<h3 class="about__item-title">Топ специалисты</h3>
+	
+							<p class="about__item-description">Мы подстрижем вас на высшем уровне</p>
+						</div>
 					</li>
 					<li class="about__item">
-						<h3 class="about__item-title">Мастера бород и усов</h3>
+						<div class="about__item-image">
+							<img src="img/icon 2.png" alt="">
+						</div>
 
-						<p class="about__item-description">Мы заботливо уложим вашу бороду и усы</p>
+						<div class="about__item-content">
+							<h3 class="about__item-title">Мастера бород и усов</h3>
+	
+							<p class="about__item-description">Мы заботливо уложим вашу бороду и усы</p>
+						</div>
 					</li>
 					<li class="about__item">
-						<h3 class="about__item-title">Гарантия качества</h3>
-
-						<p class="about__item-description">Мы используем только профессиональные средства</p>
+						<div class="about__item-image">
+							<img src="img/icon 3.png" alt="">
+						</div>
+						
+						<div class="about__item-content">
+							<h3 class="about__item-title">Гарантия качества</h3>
+	
+							<p class="about__item-description">Мы используем только профессиональные средства</p>
+						</div>
 					</li>
 				</ul>
 			</div>

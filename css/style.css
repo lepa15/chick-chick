@@ -3,4 +3,11 @@
 @import "global.css";
 @import "present.css";
 @import "todo.css";
+@import "header.css";
+@import "navigation.css";
+@import "main-link.css";
+@import "hero.css";
+@import "slider.css";
+@import "price.css";
+@import "about.css";
 @import "calc.css";
