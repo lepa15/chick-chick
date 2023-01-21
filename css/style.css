@@ -1,6 +1,7 @@
 @import "fonts.css";
 @import "normalize.css";
 @import "global.css";
+@import "preload.css";
 @import "present.css";
 @import "todo.css";
 @import "header.css";
@@ -10,4 +11,6 @@
 @import "slider.css";
 @import "price.css";
 @import "about.css";
+@import "reserve.css";
+@import "radio.css";
 @import "calc.css";
