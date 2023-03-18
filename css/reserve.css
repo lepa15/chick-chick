@@ -2,20 +2,6 @@
 	padding-top: 62px;
 	padding-bottom: 124px;
 }
-
-@media (max-width: 768px) {
-	.reserve {
-		padding-top: 40px;
-		padding-bottom: 80px;
-	}
-}
-
-@media (max-width: 560px) {
-	.reserve {
-		padding-top: 32px;
-		padding-bottom: 64px;
-	}
-}
 .reserve__title {
 	padding-bottom: 24px;
 	font-size: 40px;
@@ -27,17 +13,6 @@
 	font-size: 16px;
 	line-height: 1.5;
 	color: #BFBDB2;
-}
-@media (max-width: 768px) {
-	.reserve__list {
-		margin-bottom: 40px;
-	}
-}
-
-@media (max-width: 560px) {
-	.reserve__list {
-		margin-bottom: 32px;
-	}
 }
 
 .reserve__item {
@@ -54,17 +29,6 @@
 	margin-bottom: 40px;
 }
 
-@media (max-width: 768px) {
-	.reserve__form-container {
-		margin-bottom: 32px;
-	}
-}
-
-@media (max-width: 560px) {
-	.reserve__form-container {
-		margin-bottom: 24px;
-	}
-}
 .reserve__fieldset {
 	border: none;
 	padding: 0;
@@ -76,21 +40,10 @@
 	gap: 8px;
 }
 
-@media (max-width: 768px) {
-	.reserve__fieldset {
-		margin-bottom: 40px;
-	}
-}
-
-@media (max-width: 560px) {
-	.reserve__fieldset {
-		margin-bottom: 32px;
-	}
-}
-
 .reserve__fieldset:last-child {
 	margin-bottom: 0;
 }
+
 .reserve__legend {
 	flex-basis: 100%;
 	margin-bottom: 24px;
@@ -99,22 +52,69 @@
 	text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
-	.reserve__legend {
-		font-size: 16px;
-
-	}
-}
-
 .reserve__fieldset_sub {
 	flex-basis: 100%;
 	margin-bottom: 24px;
 }
 
+
+
 @media (max-width: 768px) {
+	.reserve {
+		padding-top: 40px;
+		padding-bottom: 80px;
+	}
+
+	.reserve__list {
+		margin-bottom: 40px;
+	}
+
+	.reserve__title {
+		font-size: 32px;
+	}
+
+	.reserve__form-container {
+		margin-bottom: 32px;
+	}
+
+	.reserve__legend {
+		font-size: 16px;
+		margin-bottom: 16px;
+	}
+
+	.reserve__fieldset {
+		margin-bottom: 40px;
+	}
+
 	.reserve__fieldset_sub {
 		margin-bottom: 20px;
+	}
+}
 
+@media (max-width: 560px) {
+	.reserve {
+		padding-top: 32px;
+		padding-bottom: 64px;
+	}
+
+	.reserve__list {
+		margin-bottom: 32px;
+		padding-left: 18px;
+		font-size: 12px;
+	}
+
+	.reserve__title {
+		font-size: 20px;
+		margin-bottom: 16px;
+	}
+
+
+	.reserve__form-container {
+		margin-bottom: 24px;
+	}
+
+	.reserve__fieldset {
+		margin-bottom: 32px;
 	}
 }
 

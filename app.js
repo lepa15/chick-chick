@@ -1,3 +1,5 @@
+const API_URL = 'https://plant-snapdragon-sycamore.glitch.me/';
+
 const addPreload = (elem) => { //запускаем прелоадер для слайда
 	elem.classList.add('preload');
 };

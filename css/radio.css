@@ -22,6 +22,7 @@
 @media (max-width: 768px) {
 	.radio__label {
 		font-size: 12px;
+		padding: 12px 15px;
 	}
 }
 
@@ -32,7 +33,7 @@
 .radio__input:focus + .radio__label,
 .radio__input:checked + .radio__label {
 	color: #241D1C;
-	background: #F6F3E3;
+	background-color: #F6F3E3;
 }
 
 .radio__label_spec {
@@ -42,3 +43,11 @@
 	background-position: 8px;
 	background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) {
+	.radio__label_spec {
+		padding-left: 40px;
+		background-size: 24px;
+	}
+}
+
